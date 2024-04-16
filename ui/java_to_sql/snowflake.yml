@@ -1,0 +1,7 @@
+definition_version: 1
+streamlit:
+  name: java_to_sql
+  stage: java_to_sql_stage
+  query_warehouse: load_wh
+  main_file: streamlit_app.py
+  env_file: environment.yml
