@@ -1,0 +1,28 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "Python: Run Current File",
+            "type": "debugpy",
+            "request": "launch",
+            "program": "${file}",
+            "console": "integratedTerminal",
+            "env": {
+                "PYTHONPATH": "./code/app"
+            }
+        },
+        {
+            "name": "Python: pytest",
+            "type": "debugpy",
+            "request": "launch",
+            "module": "pytest",
+            "cwd": "${workspaceRoot}",
+            "env": {
+                "PYTHONPATH": "./code/app"
+            },
+            "envFile": "${workspaceRoot}/.env",
+            "console": "integratedTerminal",
+            "justMyCode": false
+        }
+    ]
+}

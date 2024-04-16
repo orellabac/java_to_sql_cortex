@@ -1,0 +1,4 @@
+.packages/
+__pycache__/
+requirements.other.txt
+requirements.snowflake.txt

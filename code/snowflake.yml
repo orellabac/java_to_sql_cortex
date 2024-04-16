@@ -1,0 +1,19 @@
+definition_version: 1
+snowpark:
+  project_name: "java_migration_utils"
+  stage_name: "mystage"
+  src: "app/"
+  functions:
+    - name: parse_java_file
+      handler: "functions.parse_java_file"
+      signature:
+        - name: "file_path"
+          type: "string"
+      returns: variant
+  procedures:
+    - name: convert_with_cortex
+      handler: "procedures.convert_with_cortex"
+      signature:
+        - name: "user_query"
+          type: "string"
+      returns: string

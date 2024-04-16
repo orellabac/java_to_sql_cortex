@@ -1,0 +1,42 @@
+{
+    "peacock.color": "#6E17B3",
+    "terminal.integrated.env.windows": {
+        "PYTHONPATH": "${workspaceFolder}/src/app/;${workspaceFolder}/tests"
+    },
+    "terminal.integrated.env.osx": {
+        "PYTHONPATH": "${workspaceFolder}/src/app"
+    },
+    "terminal.integrated.env.linux": {
+        "PYTHONPATH": "${workspaceFolder}/src/app/;${workspaceFolder}/tests"
+    },
+    "python.envFile": "${workspaceFolder}/.env",
+    "python.autoComplete.extraPaths": [
+        "${workspaceFolder}/src/app",
+        "${workspaceFolder}/tests"
+    ],
+    "python.testing.pytestArgs": [
+        "tests"
+    ],
+    "python.testing.unittestEnabled": false,
+    "python.testing.pytestEnabled": true,
+    "workbench.colorCustomizations": {
+        "activityBar.activeBackground": "#8a1de0",
+        "activityBar.background": "#8a1de0",
+        "activityBar.foreground": "#e7e7e7",
+        "activityBar.inactiveForeground": "#e7e7e799",
+        "activityBarBadge.background": "#382307",
+        "activityBarBadge.foreground": "#e7e7e7",
+        "commandCenter.border": "#e7e7e799",
+        "sash.hoverBorder": "#8a1de0",
+        "statusBar.background": "#6e17b3",
+        "statusBar.foreground": "#e7e7e7",
+        "statusBarItem.hoverBackground": "#8a1de0",
+        "statusBarItem.remoteBackground": "#6e17b3",
+        "statusBarItem.remoteForeground": "#e7e7e7",
+        "titleBar.activeBackground": "#6e17b3",
+        "titleBar.activeForeground": "#e7e7e7",
+        "titleBar.inactiveBackground": "#6e17b399",
+        "titleBar.inactiveForeground": "#e7e7e799"
+    },
+
+}
